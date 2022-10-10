@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #8a2c02;
+}
+
+body {
+    background-color: #07000e
+}
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container form,
+.container table {
+    text-align: center; 
+    margin: 0 auto;
+}
+header img {
+    height: 35px;
+}
+
+table img {
+    height: 30px;
+}
+header {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+}
+
+header img{
+    margin: 0 30px;
+}
+
+form input,
+form button {
+    padding: 12px;
+    margin: 0 10px 10px 0;
+}
+
+table {
+    padding: 12px;
+    max-width: 620px;
+    width: 100%;
+}
+
+table th {
+    padding: 12px 0;
+    border-bottom: 2px solid #000;
+}
+
+table td {
+    color: #eecc8d;
+    background-color: #d75404;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+    justify-content: space-between;
+}
+
+form button {
+    background-color: #d75404;
+    border: none;
+    color: #eecc8d;
+}
+
+form button:hover { 
+    background-color: #8a2c02;
+    cursor: pointer;
+}
+
+form input {
+    background-color: #d75404;
+    color: #eecc8d;
+    border-style: none;
+}
+
+table img {
+    border: 1px solid #f08b33;
+    background-color: #f08b33;
+    border-radius: 30px;
+}
+
+header img {
+    border: 2px solid #8a2c02;
+    background-color: #8a2c02;
+    border-radius: 30px;
+}
